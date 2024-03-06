@@ -7,11 +7,11 @@ import Link from 'next/link';
 const projectsData = [
     {
         id: 1,
-        title: "Product Display Page",
-        image: "/images/projects/nextjs.png",
-        description: "A React customizable product display hero section",
+        title: "React Music Library Site",
+        image: "/images/react-music-library.jpg",
+        description: "A custom audio player for a Production music website",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/emontas/music-library",
         previewURL: "/",
     },
     {
