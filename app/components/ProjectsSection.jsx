@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "React Search API",
-        image: "/images/searchBar.jpg",
+        image: "/images/searchBarComponent.jpg",
         description: "A search component that fecthes names from an api",
         tag: ["All", "Web"],
         gitUrl: "/",
@@ -55,7 +55,7 @@ const projectsData = [
 	{
         id: 6,
         title: "ABSC Entertainment Marketing Service",
-        image: "/images/asbc-01.jpg",
+        image: "/images/asbc.jpg",
         description: "Wordpress site development for client",
         tag: ["All", "Web"],
         gitUrl: "/",
