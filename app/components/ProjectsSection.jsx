@@ -25,11 +25,11 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "React Search API",
-        image: "/images/searchBarComponent.jpg",
-        description: "A search component that fecthes names from an api",
+        title: "Next JS Portfolio Site",
+        image: "/images/portfolio.jpg",
+        description: "A portfolio webiste made with Next JS",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/emontas/react-search-bar",
+        gitUrl: "https://github.com/emontas/em-portfolio/tree/master",
         previewURL: "/",
     },
    
