@@ -34,7 +34,7 @@ const HeroSection = () => {
       style={{ fontSize: '1em', display: 'inline-block' }}
       repeat={Infinity}
     /></h1>
-            <p className=" text-[#ADB7BE] sm:text-lg lg:text-xl mb-6">Welcome to my portfolio site! I've been building websites since 2005 using tables lol. Forward to the present and I'm excited to use all the new Front End frameworks and stacks. This website was created as a Next JS application and features various projects and experiments I'm using to stay up to date with the current technologies.</p>
+            <p className=" text-[#ADB7BE] sm:text-lg lg:text-xl mb-6">Welcome to my portfolio site! I've been building websites since 2005 using tables🤣. Forward to the present and I'm excited to use all the new Front End frameworks and stacks. This website was created as a Next JS application and features various projects and experiments I'm using to stay up to date with the current technologies.</p>
             
             <div>
                 <button className="px-6 py-3 w-full sm:w-fit  rounded-full mr-4 bg-white hover:bg-slate-200 text-white bg-gradient-to-br from-purple-800 via-blue-500  to-blue-800">Contact Me</button>
