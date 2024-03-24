@@ -2,6 +2,8 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import Link from 'next/link';
+import { CodeBracketIcon } from '@heroicons/react/24/outline';
+import { EyeIcon } from '@heroicons/react/24/outline';
 
 
 const projectsData = [
@@ -12,7 +14,7 @@ const projectsData = [
         description: "The React Music Library Website offers music enthusiasts a dynamic platform for exploring albums, tracks, and artists. With a React frontend and Node.js backend, users can enjoy a modern interface, interactive audio player with waveform visualization, and artist pages. Featuring MongoDB for data storage, it's a hub for music discovery. Utilizing Tailwind CSS, WaveSurfer.js, and Material-UI Icons, the site promises a responsive experience. Future plans include authentication, search, and social features. A go-to destination for music lovers, it aims to curate an immersive journey through diverse genres and artists.",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/emontas/music-library",
-        previewURL: "/",
+        previewURL: "https://reactmusiclibrary.netlify.app/",
     },
     {
         id: 2,
@@ -21,7 +23,8 @@ const projectsData = [
         description:  "The React Product Details with 3D Model Viewer offers an immersive e-commerce experience. It includes product details, an image gallery, color selectors, sizes, and descriptions for personalized preferences. Its highlight is the 360-degree 3D viewer, powered by react-three-fiber, allowing users to rotate and customize products with real-time color updates. Featuring add-to-cart and wishlist buttons, this component is built with React, JavaScript, and Three.js, ensuring modern web practices. With focus on interactivity and visual customization, it empowers users to explore products in an engaging virtual space, making informed purchase decisions.",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/emontas/product-detail-page",
-        previewURL: "/",
+        previewURL: "https://3dpdppage.netlify.app/",
+        target:"_blank",
     },
     {
         id: 3,
@@ -71,6 +74,7 @@ const ProjectSection = () => {
        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
+      <p className="flex text-center text-[#ADB7BE] sm:text-lg lg:text-xl mb-10">Here are some of my projects. They have a link to to the github source code <CodeBracketIcon className="h-6 w-6 text-[#ADB7BE] ml-2 mr-2" /> and also a preview link <EyeIcon className="h-6 w-6 text-[#ADB7BE] ml-2 mr-0" />.</p>
         <div id="projects" className='grid md:grid-cols-3 gap-8 md:gap-12'>
             {projectsData.map((project) => (
             <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} previewUrl={project.previewURL}/>
